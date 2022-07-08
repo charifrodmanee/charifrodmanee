@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T10:38:46.638Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_2KixS1Wdh1oMJCoZMm6" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-08T10:53:13.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yjwQMpuyIK1x-OtccIC1" version="20.0.4" type="github">
   <diagram id="H9ZrI43M73sGWypSq_Jb" name="Page-1">
     <mxGraphModel dx="1187" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -180,14 +180,13 @@
             <mxPoint x="207.7733333333333" y="1274.6244444444444" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NFxBXwBvF9NyGnt5mvOB-223" value="เลือกประเภทคำถาม" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="1239.66" width="130" height="60.34" as="geometry" />
-        </mxCell>
         <mxCell id="NFxBXwBvF9NyGnt5mvOB-224" value="กรองคำถามทั้งหมดจากประเภทที่เลือก" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="1240.97" width="152.22" height="57.72" as="geometry" />
         </mxCell>
-        <mxCell id="NFxBXwBvF9NyGnt5mvOB-225" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NFxBXwBvF9NyGnt5mvOB-223" target="NFxBXwBvF9NyGnt5mvOB-224" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NFxBXwBvF9NyGnt5mvOB-225" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="NFxBXwBvF9NyGnt5mvOB-224" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1269.8299999999995" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NFxBXwBvF9NyGnt5mvOB-226" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NFxBXwBvF9NyGnt5mvOB-224" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -500,9 +499,6 @@
             <mxPoint x="170" y="69.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NFxBXwBvF9NyGnt5mvOB-6" value="เลือกวาระที่ต้องการ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="NFxBXwBvF9NyGnt5mvOB-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="70" as="sourcePoint" />
@@ -602,14 +598,13 @@
             <mxPoint x="1031" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NFxBXwBvF9NyGnt5mvOB-126" value="เลือกวาระที่ต้องการ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1041" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="NFxBXwBvF9NyGnt5mvOB-128" value="เชื่อมต่อ Hub" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1221" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NFxBXwBvF9NyGnt5mvOB-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NFxBXwBvF9NyGnt5mvOB-126" target="NFxBXwBvF9NyGnt5mvOB-128" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NFxBXwBvF9NyGnt5mvOB-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="NFxBXwBvF9NyGnt5mvOB-128" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1161" y="80" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NFxBXwBvF9NyGnt5mvOB-133" value="เเสดงแจ้งเตือนระบบว่าไม่สามารถเชื่อมต่อได้" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1381" y="180" width="120" height="60" as="geometry" />
@@ -1662,6 +1657,15 @@
         </mxCell>
         <mxCell id="LfXYUtvSCsuK5B0XXpPZ-272" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LfXYUtvSCsuK5B0XXpPZ-270" target="dkjwccnz1a46yvxOUcAg-222">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-278" value="เลือกวาระ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="37.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-280" value="เลือกวาระที่ต้องการ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-281" value="เลือกประเภทคำถาม" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1239" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
