@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T04:18:37.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="AaY02dH0HlnZjZ6tFor0" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T06:09:03.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9RfiS9ozasKJpPIsjqoQ" version="20.2.0" type="github">
   <diagram id="H9ZrI43M73sGWypSq_Jb" name="Page-1">
-    <mxGraphModel dx="1229" dy="1988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1704" dy="1988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,7 +79,7 @@
         <mxCell id="FMrHo2OvU-c8rs8Sghoq-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="FMrHo2OvU-c8rs8Sghoq-2" source="FMrHo2OvU-c8rs8Sghoq-25" target="FMrHo2OvU-c8rs8Sghoq-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FMrHo2OvU-c8rs8Sghoq-25" value="ทำการปรับปรุงข้อมูลใน Hub โดยใช้ &lt;br&gt;Hub : UpdateQuestion&lt;br&gt;Parameter : 1.รหัสคำถาม 2.วาระที่เลือก" style="rounded=1;whiteSpace=wrap;html=1;" parent="FMrHo2OvU-c8rs8Sghoq-2" vertex="1">
+        <mxCell id="FMrHo2OvU-c8rs8Sghoq-25" value="ทำการปรับปรุงข้อมูลใน Hub โดยใช้ &lt;br&gt;Hub : UpdateQuestion&lt;br&gt;Parameter : 1.รหัสคำถาม &lt;br&gt;2.วาระที่เลือก&lt;br&gt;&amp;nbsp;3.ประเภทการกระทำ" style="rounded=1;whiteSpace=wrap;html=1;" parent="FMrHo2OvU-c8rs8Sghoq-2" vertex="1">
           <mxGeometry x="316.6666666666667" y="322.0481927710843" width="211.11111111111111" height="95.42168674698793" as="geometry" />
         </mxCell>
         <mxCell id="FMrHo2OvU-c8rs8Sghoq-26" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="FMrHo2OvU-c8rs8Sghoq-2" vertex="1">
@@ -249,16 +249,16 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="5520" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="790" y="4941" />
+              <mxPoint x="790" y="4900" />
               <mxPoint x="790" y="5550" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FMrHo2OvU-c8rs8Sghoq-87" value="เเสดงแจ้งเตือนระบบว่าไม่สามารถเชื่อมต่อได้" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="592.218888888889" y="4905.060240963856" width="126.66666666666667" height="71.56626506024097" as="geometry" />
+          <mxGeometry x="595.2688888888889" y="4871.930240963856" width="126.66666666666667" height="71.56626506024097" as="geometry" />
         </mxCell>
         <mxCell id="FMrHo2OvU-c8rs8Sghoq-88" value="ไม่ได้" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="528.8855555555556" y="4905.060240963856" width="50" height="30" as="geometry" />
+          <mxGeometry x="528.8855555555556" y="4863.130240963856" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FMrHo2OvU-c8rs8Sghoq-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FMrHo2OvU-c8rs8Sghoq-85" target="FMrHo2OvU-c8rs8Sghoq-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -294,8 +294,8 @@
         <mxCell id="FMrHo2OvU-c8rs8Sghoq-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FMrHo2OvU-c8rs8Sghoq-104" target="FMrHo2OvU-c8rs8Sghoq-96" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FMrHo2OvU-c8rs8Sghoq-104" value="ทำการปรับปรุงข้อมูลใน Hub โดยใช้ &lt;br&gt;Hub : UpdateQuestion&lt;br&gt;Parameter : &lt;br&gt;1.รหัสคำถาม&amp;nbsp; &lt;br&gt;2. รายละเอียดข้อมูลคำถามทั้งหมด&lt;br&gt;3. ไฟล์ทั้งหมดที่อัปโหลด" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="381.11" y="5120" width="211.11111111111111" height="95.42168674698793" as="geometry" />
+        <mxCell id="FMrHo2OvU-c8rs8Sghoq-104" value="ทำการปรับปรุงข้อมูลใน Hub โดยใช้ &lt;br&gt;Hub : UpdateQuestion&lt;br&gt;Parameter : &lt;br&gt;1.รหัสคำถาม&amp;nbsp; &lt;br&gt;2. รายละเอียดข้อมูลคำถาม&lt;br&gt;3.หมายเหตุคำถาม&lt;br&gt;4. ไฟล์ทั้งหมดที่อัปโหลด&lt;br&gt;5.ประเภทการกระทำ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="372.22" y="5100" width="228.89" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FMrHo2OvU-c8rs8Sghoq-105" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="515.0044444444444" y="5370.001204819277" width="50" height="30" as="geometry" />
@@ -352,7 +352,7 @@
         <mxCell id="NFxBXwBvF9NyGnt5mvOB-307" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="NFxBXwBvF9NyGnt5mvOB-297" source="NFxBXwBvF9NyGnt5mvOB-304" target="NFxBXwBvF9NyGnt5mvOB-300" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NFxBXwBvF9NyGnt5mvOB-308" value="ทำการปรับปรุงข้อมูลใน Hub โดยใช้ &lt;br&gt;Hub :&amp;nbsp; UpdateQuestion&lt;br&gt;Parameter : 1. รหัสของคำถาม&amp;nbsp;&lt;br&gt;2. สถานะของคำถาม" style="rounded=1;whiteSpace=wrap;html=1;" parent="NFxBXwBvF9NyGnt5mvOB-296" vertex="1">
+        <mxCell id="NFxBXwBvF9NyGnt5mvOB-308" value="ทำการปรับปรุงข้อมูลใน Hub โดยใช้ &lt;br&gt;Hub :&amp;nbsp; UpdateQuestion&lt;br&gt;Parameter : 1. รหัสของคำถาม&amp;nbsp;&lt;br&gt;2. ประเภทการกระทำ" style="rounded=1;whiteSpace=wrap;html=1;" parent="NFxBXwBvF9NyGnt5mvOB-296" vertex="1">
           <mxGeometry x="20" y="250" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NFxBXwBvF9NyGnt5mvOB-324" value="" style="group" parent="NFxBXwBvF9NyGnt5mvOB-296" vertex="1" connectable="0">
@@ -1153,16 +1153,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FMrHo2OvU-c8rs8Sghoq-91" value="เชื่อมต่อได้" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="444.44111111111107" y="4893.1325301204815" width="84.44444444444444" height="95.42168674698793" as="geometry" />
+          <mxGeometry x="444.44111111111107" y="4860.002530120481" width="84.44444444444444" height="95.42168674698793" as="geometry" />
         </mxCell>
         <mxCell id="FMrHo2OvU-c8rs8Sghoq-92" value="ได้" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="433.8855555555555" y="4994.518072289156" width="40" height="30" as="geometry" />
+          <mxGeometry x="428.25555555555553" y="4965.058072289156" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LfXYUtvSCsuK5B0XXpPZ-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LfXYUtvSCsuK5B0XXpPZ-168" target="FMrHo2OvU-c8rs8Sghoq-104" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LfXYUtvSCsuK5B0XXpPZ-168" value="กรองข้อมูลคำถามทั้งหมด ด้วยคำถามที่เลือกมาเพื่อปรับปรุงข้อมูลคำถาม" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="426.6633333333333" y="5039.995060240963" width="120" height="60" as="geometry" />
+          <mxGeometry x="426.66333333333336" y="4995.055060240963" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LfXYUtvSCsuK5B0XXpPZ-172" value="U10&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1575" y="4725" width="50" height="30" as="geometry" />
@@ -1444,7 +1444,7 @@
         <mxCell id="XkaiIq8s99PceLS4321l-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="XkaiIq8s99PceLS4321l-6" source="XkaiIq8s99PceLS4321l-13" target="XkaiIq8s99PceLS4321l-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XkaiIq8s99PceLS4321l-17" value="ทำการปรับปรุงข้อมูลใน Hub โดยใช้ &lt;br&gt;Hub :&amp;nbsp; UpdateQuestionVote&lt;br&gt;Parameter : 1. รหัสของคำถาม&amp;nbsp;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="XkaiIq8s99PceLS4321l-36" vertex="1">
+        <mxCell id="XkaiIq8s99PceLS4321l-17" value="ทำการปรับปรุงข้อมูลใน Hub โดยใช้ &lt;br&gt;Hub :&amp;nbsp; UpdateQuestion&lt;br&gt;Parameter : 1. รหัสของคำถาม&amp;nbsp;&lt;br&gt;2. สถานะการแสดง display&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;3.ประเภทการกระทำ" style="rounded=1;whiteSpace=wrap;html=1;" parent="XkaiIq8s99PceLS4321l-36" vertex="1">
           <mxGeometry x="20" y="250" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XkaiIq8s99PceLS4321l-18" value="" style="group" parent="XkaiIq8s99PceLS4321l-36" vertex="1" connectable="0">
