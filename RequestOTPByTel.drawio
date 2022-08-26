@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T05:04:35.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="f3R1YHiVQqbJvn_CO1E0" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-26T07:11:00.087Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TaSsmoJrJ9Xc2T2E9DuX" version="20.2.7" type="github">
   <diagram id="1ayUllSppx8MFt43dIr6" name="หน้า-1">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1783" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,7 +94,7 @@
         <mxCell id="fFI9cn2roTeIY-2pyb4_-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-24" target="fFI9cn2roTeIY-2pyb4_-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fFI9cn2roTeIY-2pyb4_-24" value="ตรวจสอบว่าเคยขอมาหรือยัง &lt;br&gt;โดยตรวจสอบใน Table RequestTemp&lt;br&gt;ด้วยข้อมูลผู้ถือหุ้นที่ต้องการรับ OTP โดยเช็คจากเงื่อนไขว่า&lt;br&gt;ต้องไม่ซ้ำกันทั้ง 3 ข้อมูล&lt;br&gt;1.AccountID 2.Email 3.Tel" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-24" value="ตรวจสอบว่าเคยขอมาหรือยัง &lt;br&gt;โดยตรวจสอบใน Table RequestTemp&lt;br&gt;ด้วยข้อมูลผู้ถือหุ้นที่ต้องการยื่นรับ OTP โดยเช็คจากเงื่อนไขว่า&lt;br&gt;ต้องตรงกันทั้ง 3 ข้อมูล&lt;br&gt;1.AccountID 2.Email 3.Tel" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="230" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="fFI9cn2roTeIY-2pyb4_-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-26" target="fFI9cn2roTeIY-2pyb4_-195">
@@ -250,16 +250,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fFI9cn2roTeIY-2pyb4_-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-189" target="fFI9cn2roTeIY-2pyb4_-81">
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-189" target="fFI9cn2roTeIY-2pyb4_-247">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="710" y="390" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="640" y="1100" />
-              <mxPoint x="800" y="1100" />
-              <mxPoint x="800" y="440" />
-              <mxPoint x="660" y="440" />
-              <mxPoint x="660" y="304" />
-            </Array>
+            <mxPoint x="810" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fFI9cn2roTeIY-2pyb4_-189" value="สำเร็จ" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -268,11 +261,176 @@
         <mxCell id="fFI9cn2roTeIY-2pyb4_-192" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="670" y="1005" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fFI9cn2roTeIY-2pyb4_-193" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1065" width="50" height="30" as="geometry" />
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-199" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-195" target="fFI9cn2roTeIY-2pyb4_-204">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119.52380952380963" y="900.0224089635856" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="fFI9cn2roTeIY-2pyb4_-195" value="ตรวจสอบว่าเคยขอมาหรือยัง &lt;br&gt;โดยตรวจสอบใน Table Request&lt;br&gt;ด้วยข้อมูลผู้ถือหุ้นที่ต้องการรับ OTP โดยเช็คจากเงื่อนไขว่า&lt;br&gt;ต้องไม่ซ้ำกันทั้ง 3 ข้อมูล&lt;br&gt;1.AccountID 2.Email 3.Tel" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="760" width="200" height="100" as="geometry" />
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-195" value="ตรวจสอบใน Table Request&lt;br&gt;ด้วยข้อมูลผู้ถือหุ้นที่ต้องติดตามสถานะ เพื่อรับ OTP โดยเช็คจากเงื่อนไขว่า&lt;br&gt;ต้องตรงกันทั้ง 3 ข้อมูล&lt;br&gt;1.AccountID 2.Email 3.Tel" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="775" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-193" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1070" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-204" target="fFI9cn2roTeIY-2pyb4_-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-244" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-204" target="fFI9cn2roTeIY-2pyb4_-243">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-204" value="มีข้อมูล" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="910" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-206" value="ทำการ Generate verifyToken โดยใช้ข้อมูลผู้ถือหุ้น" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-207" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1005" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-208" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="910" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-210" value="เรียกใช้งาน API&amp;nbsp; OTP ของผู้ให้บริการภายนอก โดยใช้เบอร์โทรของผู้ถือหุ้น" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1169" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-205" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-206" target="fFI9cn2roTeIY-2pyb4_-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-213" value="สำเร็จ" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1315" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-209" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-210" target="fFI9cn2roTeIY-2pyb4_-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-215" value="ส่ง Error Code 1 &lt;br&gt;ไม่สารถยิง OTP ได้" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-213" target="fFI9cn2roTeIY-2pyb4_-215">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="1355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-216" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1315" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-217" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1410" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-219" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1025" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-215" target="fFI9cn2roTeIY-2pyb4_-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-222" value="เพิ่มข้อมูลลงใน activityLog" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-212" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-213" target="fFI9cn2roTeIY-2pyb4_-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-224" value="บันทึกข้อมูลลง database" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-229" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-230" target="fFI9cn2roTeIY-2pyb4_-224">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-230" value="ปรับปรุงข้อมูลลงใน Table Request โดยใช้ข้อมูลที่ตรงกับเงื่อนไขมาปรับปรุง&lt;br&gt;1. ข้อมูล OTP SMS&lt;br&gt;2. วันที่เวลา" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1380" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-222" target="fFI9cn2roTeIY-2pyb4_-230">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319.99999999999955" y="1549.9999999999995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-234" target="fFI9cn2roTeIY-2pyb4_-219">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="1545" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="465" y="1435" />
+              <mxPoint x="500" y="1435" />
+              <mxPoint x="500" y="1295" />
+              <mxPoint x="380" y="1295" />
+              <mxPoint x="380" y="1125" />
+              <mxPoint x="325" y="1125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-234" value="ส่งข้อมูลกลับ&lt;br&gt;verifyToken&amp;nbsp;&lt;br&gt;otpToken&lt;br&gt;refCode" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1522.5" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-235" value="สิ้นสุด" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1090" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-218" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-219" target="fFI9cn2roTeIY-2pyb4_-235">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="1035" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-238" target="fFI9cn2roTeIY-2pyb4_-234">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1635" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="465" y="1640" />
+            </Array>
+            <mxPoint x="360" y="1710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-238" target="fFI9cn2roTeIY-2pyb4_-250">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="1200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="1700" />
+              <mxPoint x="570" y="1700" />
+              <mxPoint x="570" y="1209" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-238" value="สำเร็จ" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-239" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="373" y="1610" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-240" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1660" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-223" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-224" target="fFI9cn2roTeIY-2pyb4_-238">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-243" target="fFI9cn2roTeIY-2pyb4_-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-243" value="ส่ง Error Code 5&lt;br&gt;ไม่พบเอกสารคำร้องที่ตรงกับข้อมูลผู้ถือหุ้นในการติดตามเอกสารคำร้อง" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="880" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-247" target="fFI9cn2roTeIY-2pyb4_-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="460" />
+              <mxPoint x="660" y="304" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-247" value="ส่ง Error Message เเละ Error Code 99" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="430" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFI9cn2roTeIY-2pyb4_-250" target="fFI9cn2roTeIY-2pyb4_-219">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="1209" />
+              <mxPoint x="410" y="1100" />
+              <mxPoint x="339" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fFI9cn2roTeIY-2pyb4_-250" value="ส่ง Error Message เเละ Error Code 99" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1179" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
