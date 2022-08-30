@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T09:57:58.277Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="scPfi_Br2M-4WWrzHaQO" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T10:08:51.782Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="23oEYdlNNnP0i4uSY5fD" version="20.2.7" type="github">
   <diagram id="RMdtWBDBzw_GRddQN0wl" name="หน้า-1">
-    <mxGraphModel dx="2377" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,12 +64,10 @@
         <mxCell id="RDVR8g_Y1KUdD5dzRXbu-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="RDVR8g_Y1KUdD5dzRXbu-126" target="RDVR8g_Y1KUdD5dzRXbu-130">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RDVR8g_Y1KUdD5dzRXbu-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="RDVR8g_Y1KUdD5dzRXbu-126">
+        <mxCell id="RDVR8g_Y1KUdD5dzRXbu-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="RDVR8g_Y1KUdD5dzRXbu-126" target="RDVR8g_Y1KUdD5dzRXbu-151">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="1120" as="targetPoint" />
             <Array as="points">
               <mxPoint x="441" y="1800" />
-              <mxPoint x="760" y="1800" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -211,7 +209,7 @@
         </mxCell>
         <mxCell id="RDVR8g_Y1KUdD5dzRXbu-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="RDVR8g_Y1KUdD5dzRXbu-57">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="1600" as="targetPoint" />
+            <mxPoint x="760" y="1110" as="targetPoint" />
             <Array as="points">
               <mxPoint x="90" y="1830" />
               <mxPoint x="760" y="1830" />
@@ -358,6 +356,14 @@
         </mxCell>
         <mxCell id="RDVR8g_Y1KUdD5dzRXbu-149" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="435" y="1595" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RDVR8g_Y1KUdD5dzRXbu-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="RDVR8g_Y1KUdD5dzRXbu-151">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RDVR8g_Y1KUdD5dzRXbu-151" value="ส่งกลับข้อมูลผู้ถือหุ้น" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="537.5" y="1780" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
