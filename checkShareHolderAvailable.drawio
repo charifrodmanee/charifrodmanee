@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T05:33:37.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Q1j9yy4K5-rWilagmizy" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T05:34:33.539Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="kxLZ2M6z-XT1U0yRtGgS" version="20.2.7" type="github">
   <diagram id="r1KlR5gyU6nK87SkoTvP" name="หน้า-1">
-    <mxGraphModel dx="628" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="434" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,6 +24,15 @@
         </mxCell>
         <mxCell id="m3CZalvDAAZhXAgWsh8W-43" value="มีข้อมูล" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="895" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m3CZalvDAAZhXAgWsh8W-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="m3CZalvDAAZhXAgWsh8W-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1600" y="230" />
+              <mxPoint x="1600" y="640" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="m3CZalvDAAZhXAgWsh8W-45" value="ส่ง Error Code 3 &lt;br&gt;ไม่พบข้อมูลที่ต้องการตรวจสอบ" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1035" y="205" width="170" height="50" as="geometry" />
