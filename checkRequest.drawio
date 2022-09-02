@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T04:37:16.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="KBJjzO46AaQPT0aVto4g" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T10:02:34.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Dvju6MQNOJTL5TfwOVfG" version="20.2.8" type="github">
   <diagram id="lPwSiwmaaXrukdMeyInC" name="หน้า-1">
-    <mxGraphModel dx="599" dy="-457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1584" dy="-287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,7 +197,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jNTF4sztEu3RgxND8CfF-172" value="เปิดประชุม" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+        <mxCell id="jNTF4sztEu3RgxND8CfF-172" value="เปิด?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="897.87" y="1810" width="75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jNTF4sztEu3RgxND8CfF-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jNTF4sztEu3RgxND8CfF-170" target="jNTF4sztEu3RgxND8CfF-172" edge="1">
@@ -219,6 +219,15 @@
         </mxCell>
         <mxCell id="jNTF4sztEu3RgxND8CfF-177" value="เปิด" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="970.37" y="1795" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YVdM0BHrPblxT7_s22fb-60" value="&lt;font color=&quot;#ff1c03&quot;&gt;&lt;b&gt;เงื่อนไขของการเปิด ปิด อยู่ในช่วง &lt;br&gt;สามารถทำอะไรได้บ้าง ต้องตรวจสอบอะไรบ้าง&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="1760" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YVdM0BHrPblxT7_s22fb-61" value="ต้องเช็คสถานะของสถานะกรรมการด้วยไหม &lt;br&gt;สามารถส่ง null ไปได้ไหมหรือต้องตรวจสอบด้วย" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF1C03;" vertex="1" parent="1">
+          <mxGeometry x="805" y="1990" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YVdM0BHrPblxT7_s22fb-62" value="สถานะการยื่นเอามาจากไหน&amp;nbsp; มีหรือป่าว" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF1C03;" vertex="1" parent="1">
+          <mxGeometry x="1625" y="1320" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
