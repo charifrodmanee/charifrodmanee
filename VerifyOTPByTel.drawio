@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T07:29:34.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="1TIN4oJ6JbWG79YBPDXY" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T10:12:34.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="EWUhxP0lKWIm6vykshTe" version="20.2.8" type="github">
   <diagram id="5tT6JGEHEpbYU6vvurMg" name="หน้า-1">
-    <mxGraphModel dx="-207" dy="280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="192" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,7 +70,7 @@
         <mxCell id="_IzJQ9_v8akHQBwBYt0i-100" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="885" y="255" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_IzJQ9_v8akHQBwBYt0i-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_IzJQ9_v8akHQBwBYt0i-106" edge="1" target="66u1GEdo-1cmv5JM-1_x-1">
+        <mxCell id="_IzJQ9_v8akHQBwBYt0i-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_IzJQ9_v8akHQBwBYt0i-106" target="66u1GEdo-1cmv5JM-1_x-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1339.9999999999995" y="430" as="targetPoint" />
             <Array as="points">
@@ -97,7 +97,7 @@
         <mxCell id="_IzJQ9_v8akHQBwBYt0i-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_IzJQ9_v8akHQBwBYt0i-72" target="_IzJQ9_v8akHQBwBYt0i-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_IzJQ9_v8akHQBwBYt0i-76" value="ตรวจสอบรหัสยืนยัน OTP กับผู้ให้บริการ&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="_IzJQ9_v8akHQBwBYt0i-76" value="ยืนยันรหัสตัวตน" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1281" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_IzJQ9_v8akHQBwBYt0i-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_IzJQ9_v8akHQBwBYt0i-73" target="_IzJQ9_v8akHQBwBYt0i-76" edge="1">
@@ -175,7 +175,7 @@
         <mxCell id="_IzJQ9_v8akHQBwBYt0i-111" value="มีข้อมูล" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1116" y="230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="66u1GEdo-1cmv5JM-1_x-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="_IzJQ9_v8akHQBwBYt0i-114">
+        <mxCell id="66u1GEdo-1cmv5JM-1_x-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="_IzJQ9_v8akHQBwBYt0i-114" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1150" y="430" as="targetPoint" />
           </mxGeometry>
@@ -202,11 +202,20 @@
         <mxCell id="_IzJQ9_v8akHQBwBYt0i-126" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1290" y="125" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="66u1GEdo-1cmv5JM-1_x-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="66u1GEdo-1cmv5JM-1_x-1" target="_IzJQ9_v8akHQBwBYt0i-51">
+        <mxCell id="66u1GEdo-1cmv5JM-1_x-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="66u1GEdo-1cmv5JM-1_x-1" target="_IzJQ9_v8akHQBwBYt0i-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="66u1GEdo-1cmv5JM-1_x-1" value="ส่งค่ากลับ Status : false" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="66u1GEdo-1cmv5JM-1_x-1" value="ส่งค่ากลับ Status : false" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="440" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="juMsNM8s4j_jNVtFp_6V-1" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="255" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="juMsNM8s4j_jNVtFp_6V-2" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="315" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="juMsNM8s4j_jNVtFp_6V-3" value="&lt;font color=&quot;#ff3333&quot;&gt;ควรจะอยู้เส้นเดียวกันไหม&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1381" y="125" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
