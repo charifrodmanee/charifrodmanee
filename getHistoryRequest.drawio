@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T00:05:01.684Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cAn8hWEtrHAzdNl9Omy9" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T00:24:05.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pXnzZLloAZUIGeA0u7bg" version="20.2.7" type="github">
   <diagram id="ua6vYQf1JVs-a21c8JEg" name="หน้า-1">
-    <mxGraphModel dx="524" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="33" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,17 +88,52 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pEs_G7PRkT_eAWiX3zkS-57" value="ค้นหาข้อมูลไฟลเอกสารแนบโดยหาจาก Table requestAttach ที่รหัสอ้างอิงเอกสารคำร้องเหมือนกัน" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1287.32" y="316.92" width="180" height="46.15" as="geometry" />
-        </mxCell>
         <mxCell id="pEs_G7PRkT_eAWiX3zkS-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pEs_G7PRkT_eAWiX3zkS-59" target="pEs_G7PRkT_eAWiX3zkS-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1550" y="529" />
+              <mxPoint x="1550" y="130" />
+              <mxPoint x="1457" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pEs_G7PRkT_eAWiX3zkS-74" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1300.27" y="230" width="199.73000000000002" height="329.23" as="geometry" />
+        </mxCell>
+        <mxCell id="pEs_G7PRkT_eAWiX3zkS-57" value="ค้นหาข้อมูลไฟลเอกสารแนบโดยหาจาก Table requestAttach ที่รหัสอ้างอิงเอกสารคำร้องเหมือนกัน" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="pEs_G7PRkT_eAWiX3zkS-74">
+          <mxGeometry width="180" height="46.15" as="geometry" />
+        </mxCell>
+        <mxCell id="pEs_G7PRkT_eAWiX3zkS-59" value="ส่งกลับข้อมูลเอกสารคำร้องและเอกสารไฟล์แนบ" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="pEs_G7PRkT_eAWiX3zkS-74">
+          <mxGeometry x="29.999999999999773" y="269.23" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pEs_G7PRkT_eAWiX3zkS-65" value="ตรวจสอบว่ามีข้อมูลเอกสารร้องอีกหรือไม่" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="pEs_G7PRkT_eAWiX3zkS-74">
+          <mxGeometry x="30" y="79.23499999999996" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pEs_G7PRkT_eAWiX3zkS-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pEs_G7PRkT_eAWiX3zkS-74" source="pEs_G7PRkT_eAWiX3zkS-57" target="pEs_G7PRkT_eAWiX3zkS-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pEs_G7PRkT_eAWiX3zkS-59" value="ส่งกลับข้อมูลเอกสารคำร้องและเอกสารไฟล์แนบ" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1409.9999999999998" y="176.14999999999998" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pEs_G7PRkT_eAWiX3zkS-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pEs_G7PRkT_eAWiX3zkS-57" target="pEs_G7PRkT_eAWiX3zkS-59">
+        <mxCell id="pEs_G7PRkT_eAWiX3zkS-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pEs_G7PRkT_eAWiX3zkS-74" source="pEs_G7PRkT_eAWiX3zkS-68" target="pEs_G7PRkT_eAWiX3zkS-59">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pEs_G7PRkT_eAWiX3zkS-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pEs_G7PRkT_eAWiX3zkS-74" source="pEs_G7PRkT_eAWiX3zkS-68" target="pEs_G7PRkT_eAWiX3zkS-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="199.73000000000002" y="199.23000000000002" />
+              <mxPoint x="199.73000000000002" y="23.230000000000018" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pEs_G7PRkT_eAWiX3zkS-68" value="มีข้อมูล" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="pEs_G7PRkT_eAWiX3zkS-74">
+          <mxGeometry x="50" y="159.2349999999999" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pEs_G7PRkT_eAWiX3zkS-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pEs_G7PRkT_eAWiX3zkS-74" source="pEs_G7PRkT_eAWiX3zkS-65" target="pEs_G7PRkT_eAWiX3zkS-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pEs_G7PRkT_eAWiX3zkS-71" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pEs_G7PRkT_eAWiX3zkS-74">
+          <mxGeometry x="44.73000000000002" y="234.23000000000002" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pEs_G7PRkT_eAWiX3zkS-73" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pEs_G7PRkT_eAWiX3zkS-74">
+          <mxGeometry x="119.73000000000002" y="164.23000000000002" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
