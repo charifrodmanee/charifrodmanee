@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T16:40:13.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="xrnNjxVcjb-p90EXTgGy" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T07:21:49.335Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="44AXDYtnLdPqF9zXu5kY" version="20.2.8" type="github">
   <diagram id="5tT6JGEHEpbYU6vvurMg" name="หน้า-1">
-    <mxGraphModel dx="33" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="361" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,9 +70,13 @@
         <mxCell id="_IzJQ9_v8akHQBwBYt0i-100" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="885" y="255" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_IzJQ9_v8akHQBwBYt0i-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="_IzJQ9_v8akHQBwBYt0i-106" edge="1">
+        <mxCell id="_IzJQ9_v8akHQBwBYt0i-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_IzJQ9_v8akHQBwBYt0i-106" edge="1" target="66u1GEdo-1cmv5JM-1_x-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1339.9999999999995" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1150" y="430" />
+              <mxPoint x="1150" y="457" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_IzJQ9_v8akHQBwBYt0i-106" value="ส่ง Error code 2&lt;br&gt;ข้อมูลประเภทไม่ถูกต้อง" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -171,9 +175,9 @@
         <mxCell id="_IzJQ9_v8akHQBwBYt0i-111" value="มีข้อมูล" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1116" y="230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_IzJQ9_v8akHQBwBYt0i-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="_IzJQ9_v8akHQBwBYt0i-114" edge="1">
+        <mxCell id="66u1GEdo-1cmv5JM-1_x-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="_IzJQ9_v8akHQBwBYt0i-114">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1155.9999999999998" y="430" as="targetPoint" />
+            <mxPoint x="1150" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_IzJQ9_v8akHQBwBYt0i-114" value="ส่ง Error Code 3&lt;br&gt;ไม่พบข้อมูลคำร้องที่ตรงกัน" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -197,6 +201,12 @@
         </mxCell>
         <mxCell id="_IzJQ9_v8akHQBwBYt0i-126" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1290" y="125" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66u1GEdo-1cmv5JM-1_x-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="66u1GEdo-1cmv5JM-1_x-1" target="_IzJQ9_v8akHQBwBYt0i-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66u1GEdo-1cmv5JM-1_x-1" value="ส่งค่ากลับ Status : false" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="440" width="130" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
