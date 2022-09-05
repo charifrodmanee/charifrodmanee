@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T07:40:36.984Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="xLcWzIMPOd_cj3mPH0pa" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T07:51:04.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="MJTYWQTzkIe6Jt__R32m" version="20.2.8" type="github" pages="2">
   <diagram id="W21dhTbmkytk5lZT4MXD" name="หน้า-1">
     <mxGraphModel dx="1783" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -419,122 +419,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fB3Fz5HJtCStyB_6Qw2y" name="หน้า-2">
-    <mxGraphModel dx="1358" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2593" dy="1340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-1" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1296" y="2347.6669683509162" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-2" value="เพิ่มข้อมูลผู้ถือหุ้น โดยนำข้อมูลใน table Request Temp ที่ตรงกับ verifyToken เพิ่มลงใน Table Request&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1311.75" y="1940" width="149" height="69.29483620210993" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-3" value="บันทึกข้อมูล" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1321" y="2287.46418101055" width="120" height="69.29483620210993" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-4" value="สำเร็จ" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1346.25" y="2382.332037756802" width="80" height="92.3931149361466" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="2ah3h-jQbx6tSFjaXhej-3" target="2ah3h-jQbx6tSFjaXhej-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-6" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1415" y="2393.8811771238206" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-7" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1406.25" y="2440.0777345918937" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-8" value="เพิ่มข้อมูลกรรมการผู้รับมอบฉันทะในข้อมูล Request" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1326.25" y="2043.9422543031656" width="120" height="69.29483620210993" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-9" value="เพิ่มข้อมูลโหวตใน Table RequestProxyVote" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1166.25" y="2134.5894332294456" width="120" height="69.29483620210993" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-10" value="ส่งกลับข้อมูลผู้ถือหุ้นและข้อมูลวาระที่มีการลงคะแนนเสียง" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1482.5" y="2459.711271515825" width="140" height="46.1965574680733" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="2ah3h-jQbx6tSFjaXhej-2" target="2ah3h-jQbx6tSFjaXhej-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2ah3h-jQbx6tSFjaXhej-4" target="2ah3h-jQbx6tSFjaXhej-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1386" y="2482.809550249862" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-13" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="1985.0416435313714" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1107" y="2516.3020544142146" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1106" y="2428.5285952248755" />
-            </Array>
-            <mxPoint x="1107" y="2123.6313159355914" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1165" y="2019.6890616324267" />
-              <mxPoint x="1105" y="2019.6890616324267" />
-            </Array>
-            <mxPoint x="1165" y="1985.0416435313718" as="sourcePoint" />
-            <mxPoint x="1105" y="2054.3364797334816" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-16" value="ตรวจประเภทเอกสาร โดยเช็คจากข้อมูลการโหวต (agendaVote)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1465" y="2164.7518955410033" width="120" height="62.71356783919599" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2ah3h-jQbx6tSFjaXhej-8" target="2ah3h-jQbx6tSFjaXhej-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2ah3h-jQbx6tSFjaXhej-20" target="2ah3h-jQbx6tSFjaXhej-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="2ah3h-jQbx6tSFjaXhej-20" target="2ah3h-jQbx6tSFjaXhej-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-20" value="มีข้อมูลการโหวต" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1341" y="2127.4294332294457" width="80" height="83.61809045226131" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="2ah3h-jQbx6tSFjaXhej-16" target="2ah3h-jQbx6tSFjaXhej-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-22" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1396.25" y="2227.456968350916" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-23" value="ตรวจสอบว่ามีข้อมูลโหวตอีกหรอไม่" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1166.25" y="2227.4616875326105" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="2ah3h-jQbx6tSFjaXhej-9" target="2ah3h-jQbx6tSFjaXhej-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2ah3h-jQbx6tSFjaXhej-27" target="2ah3h-jQbx6tSFjaXhej-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2ah3h-jQbx6tSFjaXhej-27" target="2ah3h-jQbx6tSFjaXhej-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1146" y="2357.456968350916" />
-              <mxPoint x="1146" y="2169.456968350916" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-27" value="มีข้อมูล" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1186.25" y="2317.4616875326105" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="2ah3h-jQbx6tSFjaXhej-23" target="2ah3h-jQbx6tSFjaXhej-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-29" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="2326.7569683509164" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2ah3h-jQbx6tSFjaXhej-30" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="2326.7569683509164" width="40" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Q4j835Vxl0gf2T9_gQ0k-2" value="ค้นหาข้อมูลใน Table Request Temp ที่ verifyToken ตรงกัน" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="344" y="110" width="120" height="60" as="geometry" />
         </mxCell>
