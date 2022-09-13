@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T03:00:05.866Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="V4KaXSWNVIdzWA3-sBjj" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-13T03:23:19.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="FKQ0pt6BbNhnCarXy4NK" version="20.3.0" type="github">
   <diagram id="H9ZrI43M73sGWypSq_Jb" name="Page-1">
-    <mxGraphModel dx="1141" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1783" dy="2162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -610,50 +610,6 @@
           <mxGeometry x="5.514999999999873" y="295.25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LfXYUtvSCsuK5B0XXpPZ-271" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dkjwccnz1a46yvxOUcAg-226" source="dkjwccnz1a46yvxOUcAg-144" target="LfXYUtvSCsuK5B0XXpPZ-270" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dkjwccnz1a46yvxOUcAg-227" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="563.05" y="5924.75" width="133.36999999999995" height="605.25" as="geometry" />
-        </mxCell>
-        <mxCell id="dkjwccnz1a46yvxOUcAg-74" value="start" style="ellipse;whiteSpace=wrap;html=1;" parent="dkjwccnz1a46yvxOUcAg-227" vertex="1">
-          <mxGeometry x="33.19" width="67" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="dkjwccnz1a46yvxOUcAg-93" value="กรองคำถามด้วยรหัสของคำถามที่ได้รับจาก Hub" style="rounded=1;whiteSpace=wrap;html=1;" parent="dkjwccnz1a46yvxOUcAg-227" vertex="1">
-          <mxGeometry y="173.5" width="133.37" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dkjwccnz1a46yvxOUcAg-95" value="แทนที่ข้อมูลเก่าด้วยข้อมูลจาก Hub" style="rounded=1;whiteSpace=wrap;html=1;" parent="dkjwccnz1a46yvxOUcAg-227" vertex="1">
-          <mxGeometry x="6.045000000000016" y="265.25" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dkjwccnz1a46yvxOUcAg-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dkjwccnz1a46yvxOUcAg-227" source="dkjwccnz1a46yvxOUcAg-93" target="dkjwccnz1a46yvxOUcAg-95" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dkjwccnz1a46yvxOUcAg-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dkjwccnz1a46yvxOUcAg-227" source="dkjwccnz1a46yvxOUcAg-95" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="66.6772727272728" y="355.25" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dkjwccnz1a46yvxOUcAg-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dkjwccnz1a46yvxOUcAg-227" source="dkjwccnz1a46yvxOUcAg-106" target="dkjwccnz1a46yvxOUcAg-93" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dkjwccnz1a46yvxOUcAg-106" value="เพิ่ม Hub Listener ในการเฝ้าระวังเมื่อ Server ส่งค่ากลับมา&amp;nbsp;&lt;br&gt;Hub :UpdateQuestion" style="rounded=1;whiteSpace=wrap;html=1;" parent="dkjwccnz1a46yvxOUcAg-227" vertex="1">
-          <mxGeometry x="6.689999999999998" y="82.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dkjwccnz1a46yvxOUcAg-219" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dkjwccnz1a46yvxOUcAg-227" source="dkjwccnz1a46yvxOUcAg-74" target="dkjwccnz1a46yvxOUcAg-106" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-273" value="กรองข้อมูลคำถามด้วยตัวกรอง" style="whiteSpace=wrap;html=1;rounded=1;" parent="dkjwccnz1a46yvxOUcAg-227" vertex="1">
-          <mxGeometry x="6.7000000000000455" y="365.25" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-274" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="dkjwccnz1a46yvxOUcAg-227" vertex="1">
-          <mxGeometry x="33.195000000000164" y="555.25" width="67" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-275" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dkjwccnz1a46yvxOUcAg-227" source="LfXYUtvSCsuK5B0XXpPZ-276" target="LfXYUtvSCsuK5B0XXpPZ-274" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-276" value="ปรับปรุงข้อมูลคำถาม" style="whiteSpace=wrap;html=1;rounded=1;" parent="dkjwccnz1a46yvxOUcAg-227" vertex="1">
-          <mxGeometry x="6.690000000000055" y="475.25" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-277" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dkjwccnz1a46yvxOUcAg-227" source="LfXYUtvSCsuK5B0XXpPZ-273" target="LfXYUtvSCsuK5B0XXpPZ-276" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dkjwccnz1a46yvxOUcAg-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -2053,6 +2009,96 @@
         </mxCell>
         <mxCell id="YWviFkrGvdr-aoqZ9q_E-108" value="สิ้นสุด" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1333.5" y="7740" width="74.14" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="dkjwccnz1a46yvxOUcAg-74" value="เริ่มต้น" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="304" y="5881" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="dkjwccnz1a46yvxOUcAg-106" target="YWviFkrGvdr-aoqZ9q_E-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkjwccnz1a46yvxOUcAg-106" value="เพิ่ม Hub Listener ในการเฝ้าระวังเมื่อ Server ส่งค่ากลับมา&amp;nbsp;&lt;br&gt;Hub :UpdateQuestion" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="293.5" y="5970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dkjwccnz1a46yvxOUcAg-219" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dkjwccnz1a46yvxOUcAg-74" target="dkjwccnz1a46yvxOUcAg-106" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="YWviFkrGvdr-aoqZ9q_E-115" target="YWviFkrGvdr-aoqZ9q_E-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-115" value="กรองคำถามทั้งหมดกับคำถามใหม่จาก hub" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="293.5" y="6070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="YWviFkrGvdr-aoqZ9q_E-117" target="YWviFkrGvdr-aoqZ9q_E-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="YWviFkrGvdr-aoqZ9q_E-117" target="YWviFkrGvdr-aoqZ9q_E-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-117" value="ข้อมูลตรงกัน ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="309.75" y="6160" width="86.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-119" value="ตรวจสอบเอกสารแบบ" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="6270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="YWviFkrGvdr-aoqZ9q_E-122" target="LfXYUtvSCsuK5B0XXpPZ-274">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="6200" />
+              <mxPoint x="640" y="6855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-122" value="เพิ่มข้อมูล ว่าเป็นการอัพเดทคำถาม" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="459.5" y="6170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YWviFkrGvdr-aoqZ9q_E-110" target="LfXYUtvSCsuK5B0XXpPZ-273">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="452" y="6420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="6420" />
+              <mxPoint x="500" y="6650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-274" value="สิ้นสุด" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="301.25" y="6830" width="101.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-275" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LfXYUtvSCsuK5B0XXpPZ-276" target="LfXYUtvSCsuK5B0XXpPZ-274" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YWviFkrGvdr-aoqZ9q_E-119" target="YWviFkrGvdr-aoqZ9q_E-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="349.826086956522" y="6339.999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkjwccnz1a46yvxOUcAg-95" value="ปรับปรุงข้อมูลเอกสารแนบ โดยการนำข้อมูลเก่ากับข้อมูลใหม่มารวมกัน โดยเรียงจากน้อยไปมากด้วยรหัส" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="273.77" y="6510" width="157.95" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dkjwccnz1a46yvxOUcAg-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dkjwccnz1a46yvxOUcAg-95" edge="1" target="LfXYUtvSCsuK5B0XXpPZ-273">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="349.72727272727275" y="6460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-273" value="แทนที่ข้อมูลเก่าด้วยข้อมูลจาก Hub และเพิ่มข้อมูลว่าเป็นการอัพเดทคำถาม" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="292.74" y="6620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-276" value="ปรับปรุงข้อมูลคำถาม" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="292.09000000000003" y="6730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LfXYUtvSCsuK5B0XXpPZ-277" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LfXYUtvSCsuK5B0XXpPZ-273" target="LfXYUtvSCsuK5B0XXpPZ-276" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="YWviFkrGvdr-aoqZ9q_E-110" target="dkjwccnz1a46yvxOUcAg-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-110" value="มีเอกสารแนบ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="302.03999999999996" y="6380" width="100.96" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-112" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="372.61" y="6360" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YWviFkrGvdr-aoqZ9q_E-114" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="6385" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
