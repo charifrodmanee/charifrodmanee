@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T03:58:20.863Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.7" etag="GzeVXOH5JisIDF0Tek7Y" type="github"><diagram id="ud-ws_il_pyCTNZ_EsVl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-28T05:16:52.341Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="m4JHY5yyvUWaWGIWP0nG" version="20.3.7" type="github">
+  <diagram id="ud-ws_il_pyCTNZ_EsVl" name="หน้า-1">
+    <mxGraphModel dx="996" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ikWS7G181MzcKN9vCQIs-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ikWS7G181MzcKN9vCQIs-1" target="ikWS7G181MzcKN9vCQIs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-1" value="เริ่มต้น" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="363" y="40" width="116" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-8" value="ส่งกลับข้อมูล&lt;br&gt;shareholderStatus :&amp;nbsp; Y" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-2" value="ตรวจสอบข้อมูลความซ้ำซ้อนของเอกสาร &lt;br&gt;ว่าเคยมีการยื่นมาหรือไม่ โดยมีเงื่อนไขคือ &lt;br&gt;เลขทะเบียนผู้ถือหุ้น , เบอรโทร และ อีเมล์ ต้องไม่ซ้ำใน Table Request&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="312.3799999999999" y="130" width="217.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-3" value="ซ้ำซ้อน ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ikWS7G181MzcKN9vCQIs-2" target="ikWS7G181MzcKN9vCQIs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-6" value="ส่ง Error Code 1 มีการใช้งานข้อมูลผู้ถือหุ้นนี้ในระบบ" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ikWS7G181MzcKN9vCQIs-3" target="ikWS7G181MzcKN9vCQIs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-21" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ikWS7G181MzcKN9vCQIs-7">
+          <mxGeometry x="-0.4413" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ikWS7G181MzcKN9vCQIs-3" target="ikWS7G181MzcKN9vCQIs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-22" value="ไม่ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ikWS7G181MzcKN9vCQIs-9">
+          <mxGeometry x="-0.6279" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-13" value="ส่งกลับข้อมูล&lt;br&gt;shareholderStatus : N" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="523.75" y="400" width="132.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="ikWS7G181MzcKN9vCQIs-6" target="ikWS7G181MzcKN9vCQIs-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-14" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="510" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ikWS7G181MzcKN9vCQIs-13" target="ikWS7G181MzcKN9vCQIs-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="ikWS7G181MzcKN9vCQIs-8" target="ikWS7G181MzcKN9vCQIs-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="520" />
+              <mxPoint x="420" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-16" value="สิ้นสุด" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="580" width="104" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ikWS7G181MzcKN9vCQIs-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="ikWS7G181MzcKN9vCQIs-14" target="ikWS7G181MzcKN9vCQIs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
