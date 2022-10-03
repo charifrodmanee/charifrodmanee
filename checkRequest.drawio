@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-03T02:50:26.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OGjhts-DOctGtk2SizGI" version="20.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-03T03:18:11.457Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="AfqFfuiCB1ZcjljQXEo1" version="20.3.7" type="github" pages="2">
   <diagram id="lPwSiwmaaXrukdMeyInC" name="หน้า-1">
     <mxGraphModel dx="-1163" dy="-607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,11 +38,10 @@
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="wf7TZzs-uNhkJIbmRCig-242" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3260" y="3880" as="targetPoint" />
+            <mxPoint x="3250" y="3390" as="targetPoint" />
             <Array as="points">
               <mxPoint x="3280" y="1716" />
-              <mxPoint x="3280" y="3880" />
-              <mxPoint x="3260" y="3880" />
+              <mxPoint x="3280" y="3280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -139,7 +138,7 @@
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-270" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="wf7TZzs-uNhkJIbmRCig-271" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3280" y="4490" as="targetPoint" />
+            <mxPoint x="3250" y="4490" as="targetPoint" />
             <Array as="points">
               <mxPoint x="3300" y="1486" />
               <mxPoint x="3300" y="4490" />
@@ -298,9 +297,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4UUopLr6q31j-0meangq-3" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-315">
+        <mxCell id="4UUopLr6q31j-0meangq-3" value="ไม่ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-315">
           <mxGeometry x="-0.6055" relative="1" as="geometry">
-            <mxPoint x="10" as="offset" />
+            <mxPoint x="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-318" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wf7TZzs-uNhkJIbmRCig-311" target="wf7TZzs-uNhkJIbmRCig-317" edge="1">
@@ -310,7 +309,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4UUopLr6q31j-0meangq-4" value="ไม่ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-318">
+        <mxCell id="4UUopLr6q31j-0meangq-4" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-318">
           <mxGeometry x="-0.5688" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -391,14 +390,16 @@
         <mxCell id="wf7TZzs-uNhkJIbmRCig-332" value="อยู่ในช่วงเวลาเปิดรับเอกสารเอกสารกำหนดค่า&lt;br&gt;requestStatus = &quot;Y&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2750" y="3016" width="130" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="wf7TZzs-uNhkJIbmRCig-329" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wf7TZzs-uNhkJIbmRCig-331" target="wf7TZzs-uNhkJIbmRCig-332" edge="1">
+        <mxCell id="wf7TZzs-uNhkJIbmRCig-329" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.027;exitY=0.501;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="wf7TZzs-uNhkJIbmRCig-331" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2810" y="2946" />
+              <mxPoint x="2805" y="2946" />
             </Array>
+            <mxPoint x="2835" y="2946" as="sourcePoint" />
+            <mxPoint x="2805" y="3016" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4UUopLr6q31j-0meangq-6" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-329">
+        <mxCell id="4UUopLr6q31j-0meangq-6" value="ไม่ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-329">
           <mxGeometry x="-0.6873" y="3" relative="1" as="geometry">
             <mxPoint x="1" y="-3" as="offset" />
           </mxGeometry>
@@ -416,7 +417,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4UUopLr6q31j-0meangq-7" value="ไม่ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-330">
+        <mxCell id="4UUopLr6q31j-0meangq-7" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-330">
           <mxGeometry x="-0.6512" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -503,7 +504,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wf7TZzs-uNhkJIbmRCig-397" value="ยังไม่ถึงวันที่เปิดรับเอกสารกำหนดค่า&lt;br&gt;requestStatus = &quot;N&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="wf7TZzs-uNhkJIbmRCig-397" value="ยังไม่ถึงวันที่เปิดรับเอกสารกำหนดค่า&lt;br&gt;requestProxy&lt;br&gt;AttorneyStatus&amp;nbsp;= &quot;N&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2975" y="3914" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-393" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wf7TZzs-uNhkJIbmRCig-395" target="wf7TZzs-uNhkJIbmRCig-397" edge="1">
@@ -513,13 +514,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="4UUopLr6q31j-0meangq-9" value="ไม่ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-393">
+          <mxGeometry x="-0.5594" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-450" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="wf7TZzs-uNhkJIbmRCig-399" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3180" y="4014" as="targetPoint" />
             <mxPoint x="3180" y="3980" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wf7TZzs-uNhkJIbmRCig-399" value="เกินวันที่เปิดรับเอกสาร&lt;br&gt;กำหนดค่า&lt;br&gt;requestStatus = &quot;C&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="wf7TZzs-uNhkJIbmRCig-399" value="เกินวันที่เปิดรับเอกสาร&lt;br&gt;กำหนดค่า&lt;br&gt;requestProxy&lt;br&gt;AttorneyStatus&amp;nbsp;= &quot;C&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="3120" y="3916" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-394" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wf7TZzs-uNhkJIbmRCig-395" target="wf7TZzs-uNhkJIbmRCig-399" edge="1">
@@ -527,6 +533,11 @@
             <Array as="points">
               <mxPoint x="3195" y="3854" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4UUopLr6q31j-0meangq-10" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-394">
+          <mxGeometry x="-0.5615" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-401" value="ตรวจสอบ&lt;br&gt;วันที่ปัจจุบันตรงวันเริ่มต้นรับเอกสารหรือไม่" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -582,7 +593,7 @@
         <mxCell id="wf7TZzs-uNhkJIbmRCig-407" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wf7TZzs-uNhkJIbmRCig-408" target="wf7TZzs-uNhkJIbmRCig-413" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wf7TZzs-uNhkJIbmRCig-415" value="อยู่ในช่วงเวลาเปิดรับเอกสารเอกสารกำหนดค่า&lt;br&gt;requestStatus = &quot;Y&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="wf7TZzs-uNhkJIbmRCig-415" value="อยู่ในช่วงเวลาเปิดรับเอกสารเอกสารกำหนดค่า&lt;br&gt;requestProxy&lt;br&gt;AttorneyStatus&amp;nbsp;= &quot;Y&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2505" y="4116" width="130" height="58" as="geometry" />
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-411" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wf7TZzs-uNhkJIbmRCig-413" target="wf7TZzs-uNhkJIbmRCig-415" edge="1">
@@ -592,7 +603,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wf7TZzs-uNhkJIbmRCig-417" value="ยังไม่ถึงวันที่เปิดรับเอกสารกำหนดค่า&lt;br&gt;requestStatus = &quot;N&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="4UUopLr6q31j-0meangq-12" value="ไม่ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-411">
+          <mxGeometry x="-0.7262" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wf7TZzs-uNhkJIbmRCig-417" value="ยังไม่ถึงวันที่เปิดรับเอกสารกำหนดค่า&lt;br&gt;requestProxy&lt;br&gt;AttorneyStatus&amp;nbsp;= &quot;N&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2665" y="4116" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-412" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wf7TZzs-uNhkJIbmRCig-413" target="wf7TZzs-uNhkJIbmRCig-417" edge="1">
@@ -600,6 +616,11 @@
             <Array as="points">
               <mxPoint x="2725" y="4046" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4UUopLr6q31j-0meangq-13" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-412">
+          <mxGeometry x="-0.6256" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-421" value="ตรงกัน ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -613,8 +634,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wf7TZzs-uNhkJIbmRCig-423" value="อยู่ในช่วงเวลาและไม่ตรงกับ&lt;br&gt;วันที่เริ่มต้นเเละสิ้นสุดรับเอกสาร&lt;br&gt;requestStatus = &quot;Y&quot;&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="3045" y="4119" width="183" height="48" as="geometry" />
+        <mxCell id="wf7TZzs-uNhkJIbmRCig-423" value="อยู่ในช่วงเวลาและไม่ตรงกับ&lt;br&gt;วันที่เริ่มต้นเเละสิ้นสุดรับเอกสาร&lt;br&gt;requestProxy&lt;br&gt;AttorneyStatus&amp;nbsp;&amp;nbsp;= &quot;Y&quot;&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="3040" y="4119" width="188" height="71" as="geometry" />
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-418" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wf7TZzs-uNhkJIbmRCig-421" target="wf7TZzs-uNhkJIbmRCig-423" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -634,6 +655,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="4UUopLr6q31j-0meangq-11" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-420">
+          <mxGeometry x="0.3489" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-425" value="น้อยกว่า ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2845" y="4200" width="80" height="80" as="geometry" />
         </mxCell>
@@ -645,24 +671,36 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wf7TZzs-uNhkJIbmRCig-428" value="อยู่ในช่วงเวลาเปิดรับเอกสารเอกสารกำหนดค่า&lt;br&gt;requestStatus = &quot;Y&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2755" y="4310" width="130" height="58" as="geometry" />
+        <mxCell id="wf7TZzs-uNhkJIbmRCig-428" value="อยู่ในช่วงเวลาเปิดรับเอกสารเอกสารกำหนดค่า&lt;br&gt;requestProxy&lt;br&gt;AttorneyStatus&amp;nbsp;&amp;nbsp;= &quot;Y&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="2745" y="4309" width="135" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="wf7TZzs-uNhkJIbmRCig-429" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wf7TZzs-uNhkJIbmRCig-425" target="wf7TZzs-uNhkJIbmRCig-428" edge="1">
+        <mxCell id="wf7TZzs-uNhkJIbmRCig-429" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.039;exitY=0.496;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="wf7TZzs-uNhkJIbmRCig-425" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2815" y="4240" />
+              <mxPoint x="2809" y="4240" />
             </Array>
+            <mxPoint x="2839" y="4240" as="sourcePoint" />
+            <mxPoint x="2809" y="4310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wf7TZzs-uNhkJIbmRCig-431" value="ยังไม่ถึงวันที่เปิดรับเอกสารกำหนดค่า&lt;br&gt;requestStatus = &quot;C&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2915" y="4310" width="120" height="60" as="geometry" />
+        <mxCell id="4UUopLr6q31j-0meangq-17" value="ไม่ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-429">
+          <mxGeometry x="-0.6067" y="-1" relative="1" as="geometry">
+            <mxPoint x="4" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wf7TZzs-uNhkJIbmRCig-431" value="ยังไม่ถึงวันที่เปิดรับเอกสารกำหนดค่า&lt;br&gt;requestProxy&lt;br&gt;AttorneyStatus&amp;nbsp;&amp;nbsp;= &quot;C&quot;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="2915" y="4300" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-432" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wf7TZzs-uNhkJIbmRCig-425" target="wf7TZzs-uNhkJIbmRCig-431" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2975" y="4240" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4UUopLr6q31j-0meangq-16" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wf7TZzs-uNhkJIbmRCig-432">
+          <mxGeometry x="-0.4816" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-449" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="wf7TZzs-uNhkJIbmRCig-434" target="wf7TZzs-uNhkJIbmRCig-448" edge="1">
@@ -695,16 +733,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-427" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wf7TZzs-uNhkJIbmRCig-428" target="wf7TZzs-uNhkJIbmRCig-434" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2813" y="4416" />
+              <mxPoint x="2891" y="4416" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-430" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wf7TZzs-uNhkJIbmRCig-431" target="wf7TZzs-uNhkJIbmRCig-434" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wf7TZzs-uNhkJIbmRCig-448" value="สิ้นสุด" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2865" y="4593" width="80" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="wf7TZzs-uNhkJIbmRCig-452" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="3250" y="3359" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
