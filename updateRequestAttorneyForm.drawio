@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-03T10:52:55.212Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qjZIweK5QrkfDNKCfWgR" version="20.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-03T15:39:18.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sdU_eeln7BI7R6pmNwGl" version="20.3.7" type="github" pages="2">
   <diagram id="tZtuiYwcsACQZU0OgqWh" name="หน้า-1">
-    <mxGraphModel dx="1783" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1577" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -708,8 +708,8 @@
         <mxCell id="xr7oQP9CHzjv751f1SOK-165" value="เพิ่มข้อมูลโหวตใน Table RequestProxyVote" style="whiteSpace=wrap;html=1;rounded=1;container=0;" vertex="1" parent="xr7oQP9CHzjv751f1SOK-223">
           <mxGeometry x="299" y="4154.997537688442" width="120" height="69.29483620210993" as="geometry" />
         </mxCell>
-        <mxCell id="xr7oQP9CHzjv751f1SOK-166" value="ตรวจประเภทเอกสาร โดยเช็คจากข้อมูลการโหวต (agendaVote)" style="whiteSpace=wrap;html=1;rounded=1;container=0;" vertex="1" parent="xr7oQP9CHzjv751f1SOK-223">
-          <mxGeometry x="299" y="3915" width="120" height="62.71356783919599" as="geometry" />
+        <mxCell id="xr7oQP9CHzjv751f1SOK-166" value="ตรวจประเภทเอกสาร โดยเช็คจาก parameter in : type ว่าเป็นแบบสร้าง(A)หรือแนบเอกสาร(C)" style="whiteSpace=wrap;html=1;rounded=1;container=0;" vertex="1" parent="xr7oQP9CHzjv751f1SOK-223">
+          <mxGeometry x="288.5" y="3915" width="141" height="75" as="geometry" />
         </mxCell>
         <mxCell id="xr7oQP9CHzjv751f1SOK-167" value="ตรวจสอบว่ามีข้อมูลโหวตอีกหรอไม่" style="whiteSpace=wrap;html=1;rounded=1;container=0;" vertex="1" parent="xr7oQP9CHzjv751f1SOK-223">
           <mxGeometry x="299" y="4254.999791991608" width="120" height="60" as="geometry" />
@@ -725,7 +725,7 @@
             <mxPoint x="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xr7oQP9CHzjv751f1SOK-173" value="มีข้อมูล ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;container=0;" vertex="1" parent="xr7oQP9CHzjv751f1SOK-223">
+        <mxCell id="xr7oQP9CHzjv751f1SOK-173" value="C ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;container=0;" vertex="1" parent="xr7oQP9CHzjv751f1SOK-223">
           <mxGeometry x="319" y="4014.9997919916077" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xr7oQP9CHzjv751f1SOK-174" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="xr7oQP9CHzjv751f1SOK-223" source="xr7oQP9CHzjv751f1SOK-166" target="xr7oQP9CHzjv751f1SOK-173">
