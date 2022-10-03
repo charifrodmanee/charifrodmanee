@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-03T07:27:40.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Imeyj-USNBLCkeeBjLvF" version="20.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-03T07:33:37.157Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YRpqyh6cGwf2hFbB5WNG" version="20.3.7" type="github" pages="2">
   <diagram id="W21dhTbmkytk5lZT4MXD" name="หน้า-1">
-    <mxGraphModel dx="-393" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="448" dy="2293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -241,10 +241,10 @@
         </mxCell>
         <mxCell id="GbZkfAYd3vnJS4172JL1-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="GbZkfAYd3vnJS4172JL1-193">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2441.5" y="3616" as="targetPoint" />
+            <mxPoint x="2422" y="4640" as="targetPoint" />
             <mxPoint x="2421.5" y="1536" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="2422" y="4450" />
+              <mxPoint x="2422" y="4630" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -332,10 +332,11 @@
         <mxCell id="GbZkfAYd3vnJS4172JL1-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="GbZkfAYd3vnJS4172JL1-135" target="GbZkfAYd3vnJS4172JL1-139">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GbZkfAYd3vnJS4172JL1-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="GbZkfAYd3vnJS4172JL1-140" target="GbZkfAYd3vnJS4172JL1-193">
+        <mxCell id="GbZkfAYd3vnJS4172JL1-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="GbZkfAYd3vnJS4172JL1-140">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1970" y="4630" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1730" y="4450" />
+              <mxPoint x="1730" y="4630" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -896,8 +897,11 @@
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GbZkfAYd3vnJS4172JL1-190" value="ส่งกลับข้อมูลผู้ถือหุ้นที่บันทึกสำเร็จเเล้ว" style="whiteSpace=wrap;html=1;rounded=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1971" y="4330" width="120" height="60" as="geometry" />
+        <mxCell id="GbZkfAYd3vnJS4172JL1-267" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="GbZkfAYd3vnJS4172JL1-190" target="GbZkfAYd3vnJS4172JL1-266">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbZkfAYd3vnJS4172JL1-190" value="ดึงข้อมูลคะแนนการโหวตของใบคำร้องที่สร้าง" style="whiteSpace=wrap;html=1;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1972.5" y="4310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GbZkfAYd3vnJS4172JL1-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GbZkfAYd3vnJS4172JL1-184" target="GbZkfAYd3vnJS4172JL1-190">
           <mxGeometry relative="1" as="geometry">
@@ -910,10 +914,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GbZkfAYd3vnJS4172JL1-193" value="สิ้นสุด" style="ellipse;whiteSpace=wrap;html=1;rounded=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1971.25" y="4420" width="120" height="60" as="geometry" />
+          <mxGeometry x="1972.5" y="4600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GbZkfAYd3vnJS4172JL1-194" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GbZkfAYd3vnJS4172JL1-190" target="GbZkfAYd3vnJS4172JL1-193">
+        <mxCell id="GbZkfAYd3vnJS4172JL1-269" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="GbZkfAYd3vnJS4172JL1-266" target="GbZkfAYd3vnJS4172JL1-268">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbZkfAYd3vnJS4172JL1-266" value="ส่งกลับข้อมูล&lt;br&gt;คะแนนการโหวต" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1972.5" y="4410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbZkfAYd3vnJS4172JL1-270" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="GbZkfAYd3vnJS4172JL1-268" target="GbZkfAYd3vnJS4172JL1-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbZkfAYd3vnJS4172JL1-268" value="ส่งกลับข้อมูลผู้ถือหุ้นที่บันทึกสำเร็จเเล้ว" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1972.25" y="4510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
