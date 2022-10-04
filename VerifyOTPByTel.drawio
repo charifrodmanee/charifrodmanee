@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T03:59:22.244Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="H48RMRag0hmT8jpvI3ic" version="20.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-04T04:00:35.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="bw0r7DDG9PrAx9NKOEJf" version="20.3.7" type="github" pages="2">
   <diagram id="5tT6JGEHEpbYU6vvurMg" name="หน้า-1">
     <mxGraphModel dx="599" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -218,7 +218,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PZ2lGf-S9GrczDRg0Y_D" name="หน้า-2">
-    <mxGraphModel dx="956" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="192" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -419,8 +419,18 @@
         <mxCell id="g-Lm8-Y55na4og7PyX7R-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g-Lm8-Y55na4og7PyX7R-3" target="g-Lm8-Y55na4og7PyX7R-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="g-Lm8-Y55na4og7PyX7R-16" value="ไม่ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g-Lm8-Y55na4og7PyX7R-6">
+          <mxGeometry x="-0.1048" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="g-Lm8-Y55na4og7PyX7R-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="g-Lm8-Y55na4og7PyX7R-3" target="g-Lm8-Y55na4og7PyX7R-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-Lm8-Y55na4og7PyX7R-17" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g-Lm8-Y55na4og7PyX7R-14">
+          <mxGeometry x="-0.1929" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="g-Lm8-Y55na4og7PyX7R-3" value="สำเร็จ" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1235" y="820" width="80" height="80" as="geometry" />
