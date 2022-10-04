@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T04:47:33.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="L4qL9WPYuNhfQ_r6QRx4" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-04T04:50:07.517Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RYJCxy6uiGl7do4an2WW" version="20.3.7" type="github">
   <diagram id="KNPTt2FtTy1nRqzTEt9b" name="หน้า-1">
-    <mxGraphModel dx="864" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1019" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,7 +57,7 @@
         <mxCell id="C6vSoGj43nONrzxHpojI-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="C6vSoGj43nONrzxHpojI-58" target="C6vSoGj43nONrzxHpojI-62" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="609" y="623" />
+              <mxPoint x="609" y="803" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -67,33 +67,32 @@
         <mxCell id="0IoLYYVcSCvld4aRIMPD-5" value="ทำการเซนเซอร์&lt;br&gt;ข้อมูลอีเมล์ และเบอร์โทรศัพท์" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="340.96000000000004" y="370" width="150.89" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="p_EshZ1UD2neo9yFfhRu-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="p_EshZ1UD2neo9yFfhRu-2" target="p_EshZ1UD2neo9yFfhRu-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p_EshZ1UD2neo9yFfhRu-2" value="เเทนที่ข้อมูล * ในข้อมูลชื่ออีเมล์ยกเว้น 2 ตัวอักษรแรกเเละตัวอักษรท้าย&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="338.64" y="440" width="154.91" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="p_EshZ1UD2neo9yFfhRu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p_EshZ1UD2neo9yFfhRu-5" edge="1">
+        <mxCell id="0IoLYYVcSCvld4aRIMPD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0IoLYYVcSCvld4aRIMPD-17" target="0IoLYYVcSCvld4aRIMPD-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="416.11500000000024" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="695" />
+              <mxPoint x="320" y="390" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="p_EshZ1UD2neo9yFfhRu-5" value="เเทนที่ข้อมูล * ในข้อมูลเบอร์โทรศัพท์ยกเว้น 2 เลขแรก&lt;br&gt;เเละ4 เลขท้าย&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="336.08" y="520" width="160" height="50" as="geometry" />
+        <mxCell id="0IoLYYVcSCvld4aRIMPD-22" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0IoLYYVcSCvld4aRIMPD-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.7729" y="-3" relative="1" as="geometry">
+            <mxPoint x="18" y="3" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="FMrYND5Tucy1LpzXZWuF-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="357.0016129032258" y="599.996923076923" width="112.22709677419351" height="160.77999999999997" as="geometry" />
+        <mxCell id="p_EshZ1UD2neo9yFfhRu-1" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="359.32000000000005" y="600" width="113.59000000000003" height="340.776923076923" as="geometry" />
         </mxCell>
-        <mxCell id="C6vSoGj43nONrzxHpojI-62" value="ส่งกลับข้อมูลการยื่นเอกสาร" style="whiteSpace=wrap;html=1;rounded=1;" parent="FMrYND5Tucy1LpzXZWuF-1" vertex="1">
-          <mxGeometry width="112.22709677419354" height="46.15384615384615" as="geometry" />
+        <mxCell id="C6vSoGj43nONrzxHpojI-62" value="ส่งกลับข้อมูลการยื่นเอกสารทั้งหมด" style="whiteSpace=wrap;html=1;rounded=1;" parent="p_EshZ1UD2neo9yFfhRu-1" vertex="1">
+          <mxGeometry x="0.9716129032257754" y="179.99692307692305" width="112.22709677419354" height="46.15384615384615" as="geometry" />
         </mxCell>
-        <mxCell id="C6vSoGj43nONrzxHpojI-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="FMrYND5Tucy1LpzXZWuF-1" source="C6vSoGj43nONrzxHpojI-62" target="C6vSoGj43nONrzxHpojI-78" edge="1">
+        <mxCell id="C6vSoGj43nONrzxHpojI-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="p_EshZ1UD2neo9yFfhRu-1" source="C6vSoGj43nONrzxHpojI-62" target="C6vSoGj43nONrzxHpojI-78" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C6vSoGj43nONrzxHpojI-75" value="" style="group" parent="FMrYND5Tucy1LpzXZWuF-1" vertex="1" connectable="0">
-          <mxGeometry x="16.07258064516145" y="80.00692307692316" width="79.4941935483871" height="80.77307692307681" as="geometry" />
+        <mxCell id="C6vSoGj43nONrzxHpojI-75" value="" style="group" parent="p_EshZ1UD2neo9yFfhRu-1" vertex="1" connectable="0">
+          <mxGeometry x="17.044193548387227" y="260.0038461538462" width="79.4941935483871" height="80.77307692307681" as="geometry" />
         </mxCell>
         <mxCell id="C6vSoGj43nONrzxHpojI-76" value="สิ้นสุด" style="ellipse;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="C6vSoGj43nONrzxHpojI-75" vertex="1">
           <mxGeometry y="50.0038461538461" width="79.4941935483871" height="30.76923076923077" as="geometry" />
@@ -103,6 +102,35 @@
         </mxCell>
         <mxCell id="C6vSoGj43nONrzxHpojI-78" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="C6vSoGj43nONrzxHpojI-75" vertex="1">
           <mxGeometry x="29.001290322580417" width="21.58213399503722" height="21.58213399503722" as="geometry" />
+        </mxCell>
+        <mxCell id="0IoLYYVcSCvld4aRIMPD-15" value="ตรวจสอบว่า&lt;br&gt;มีข้อมูลอีกหรือไม่" style="whiteSpace=wrap;html=1;rounded=1;" parent="p_EshZ1UD2neo9yFfhRu-1" vertex="1">
+          <mxGeometry width="113.59" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0IoLYYVcSCvld4aRIMPD-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="p_EshZ1UD2neo9yFfhRu-1" source="0IoLYYVcSCvld4aRIMPD-17" target="C6vSoGj43nONrzxHpojI-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0IoLYYVcSCvld4aRIMPD-21" value="ไม่ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0IoLYYVcSCvld4aRIMPD-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.104" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0IoLYYVcSCvld4aRIMPD-17" value="มี ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="p_EshZ1UD2neo9yFfhRu-1" vertex="1">
+          <mxGeometry x="16.795000000000016" y="55" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0IoLYYVcSCvld4aRIMPD-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="p_EshZ1UD2neo9yFfhRu-1" source="0IoLYYVcSCvld4aRIMPD-15" target="0IoLYYVcSCvld4aRIMPD-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_EshZ1UD2neo9yFfhRu-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="p_EshZ1UD2neo9yFfhRu-2" target="p_EshZ1UD2neo9yFfhRu-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_EshZ1UD2neo9yFfhRu-2" value="เเทนที่ข้อมูล * ในข้อมูลชื่ออีเมล์ยกเว้น 2 ตัวอักษรแรกเเละตัวอักษรท้าย&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="338.64" y="440" width="154.91" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p_EshZ1UD2neo9yFfhRu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p_EshZ1UD2neo9yFfhRu-5" target="0IoLYYVcSCvld4aRIMPD-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_EshZ1UD2neo9yFfhRu-5" value="เเทนที่ข้อมูล * ในข้อมูลเบอร์โทรศัพท์ยกเว้น 2 เลขแรก&lt;br&gt;เเละ4 เลขท้าย&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="336.08" y="520" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
