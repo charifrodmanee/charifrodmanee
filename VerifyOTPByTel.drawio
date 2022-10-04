@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T03:30:45.395Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="MUwOGKZN4g3jK27AbDH_" version="20.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-04T03:48:35.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eMic8kd8fH8eClpj5Lwj" version="20.3.7" type="github" pages="2">
   <diagram id="5tT6JGEHEpbYU6vvurMg" name="หน้า-1">
     <mxGraphModel dx="599" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -218,7 +218,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PZ2lGf-S9GrczDRg0Y_D" name="หน้า-2">
-    <mxGraphModel dx="413" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="229" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -408,17 +408,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZgjOwHYrx9zx7rFHvQs-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZgjOwHYrx9zx7rFHvQs-1" target="zZgjOwHYrx9zx7rFHvQs-2">
+        <mxCell id="zZgjOwHYrx9zx7rFHvQs-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zZgjOwHYrx9zx7rFHvQs-1" target="zZgjOwHYrx9zx7rFHvQs-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zZgjOwHYrx9zx7rFHvQs-1" value="ทำการ generate verifyToken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zZgjOwHYrx9zx7rFHvQs-1" value="ทำการ generate verifyToken" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1244" y="680" width="160" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="zZgjOwHYrx9zx7rFHvQs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZgjOwHYrx9zx7rFHvQs-2" target="YOzHrFZDF2Af9LhIsgv3-142">
+        <mxCell id="zZgjOwHYrx9zx7rFHvQs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zZgjOwHYrx9zx7rFHvQs-2" target="YOzHrFZDF2Af9LhIsgv3-142" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zZgjOwHYrx9zx7rFHvQs-2" value="ส่งกลับเลขรหัสใบคำร้องที่ otpToken ตรงกัน" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1261" y="731.25" width="126" height="52.5" as="geometry" />
+        <mxCell id="zZgjOwHYrx9zx7rFHvQs-2" value="ส่งกลับเลขรหัสใบคำร้องที่ otpToken ตรงกัน และ verifyToken" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1261" y="750" width="126" height="52.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
