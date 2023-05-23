@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T15:46:46.007Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="TXoEFg59zlniOr4Hv4Rc" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T16:12:23.506Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="jHytneXyGWZ6ldheiXu-" version="21.3.2" type="github">
   <diagram name="หน้า-1" id="9ROWrhSY8lyfW2g1wA5t">
-    <mxGraphModel dx="1849" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1934" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -470,7 +470,7 @@
         <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-287" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uw76GlWxeY3Yvk_Hq2aO-281" target="Uw76GlWxeY3Yvk_Hq2aO-285">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-281" value="ตรวจสอบข้อมูล &lt;br&gt;Account Mapping&lt;br&gt;ว่ามี &amp;gt; 0 ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-281" value="ตรวจสอบข้อมูล &lt;br&gt;Account Mapping&lt;br&gt;ว่ามี Company &amp;gt; 0 ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="1471" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uw76GlWxeY3Yvk_Hq2aO-285" target="Uw76GlWxeY3Yvk_Hq2aO-322">
@@ -515,7 +515,7 @@
             <mxPoint x="1117.4761904761904" y="1780.0238095238096" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-313" value="ตรวจสอบข้อมูล &lt;br&gt;Account Mapping&lt;br&gt;ว่ามี&amp;nbsp; = 1 ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-313" value="ตรวจสอบข้อมูล &lt;br&gt;Account Mapping&lt;br&gt;ว่ามี&amp;nbsp; Company = 1 ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="1685" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-318" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uw76GlWxeY3Yvk_Hq2aO-325" target="Uw76GlWxeY3Yvk_Hq2aO-336">
@@ -569,7 +569,7 @@
         <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-334" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uw76GlWxeY3Yvk_Hq2aO-332" target="Uw76GlWxeY3Yvk_Hq2aO-201">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-332" value="ส่งค่า Error Code xxx &lt;br&gt;ไม่สามารถสร้าง Account ในระดับเดียวกันได้" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-332" value="ส่งค่า Error Code 006&lt;br&gt;ไม่สามารถสร้าง Account ในระดับเดียวกันได้" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="725" y="1900" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-337" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uw76GlWxeY3Yvk_Hq2aO-335" target="Uw76GlWxeY3Yvk_Hq2aO-201">
@@ -579,7 +579,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-335" value="ส่งค่า Error Code xxx &lt;br&gt;การกำหนดสิทธิ์ผู้ใช้งานไม่ถูกต้อง" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-335" value="ส่งค่า Error Code 007&lt;br&gt;การกำหนดสิทธิ์ผู้ใช้งานไม่ถูกต้อง" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="1980" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-338" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uw76GlWxeY3Yvk_Hq2aO-336" target="Uw76GlWxeY3Yvk_Hq2aO-335">
