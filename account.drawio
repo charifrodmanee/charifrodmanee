@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T16:12:23.506Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="jHytneXyGWZ6ldheiXu-" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T16:18:45.858Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="73f-lQC1pQAzQDnj7ZBB" version="21.3.2" type="github">
   <diagram name="หน้า-1" id="9ROWrhSY8lyfW2g1wA5t">
     <mxGraphModel dx="1934" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -569,7 +569,7 @@
         <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-334" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uw76GlWxeY3Yvk_Hq2aO-332" target="Uw76GlWxeY3Yvk_Hq2aO-201">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-332" value="ส่งค่า Error Code 006&lt;br&gt;ไม่สามารถสร้าง Account ในระดับเดียวกันได้" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-332" value="ส่งค่า Error Code 005&lt;br&gt;ไม่สามารถสร้าง Account ในระดับเดียวกันได้" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="725" y="1900" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-337" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uw76GlWxeY3Yvk_Hq2aO-335" target="Uw76GlWxeY3Yvk_Hq2aO-201">
@@ -579,7 +579,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-335" value="ส่งค่า Error Code 007&lt;br&gt;การกำหนดสิทธิ์ผู้ใช้งานไม่ถูกต้อง" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-335" value="ส่งค่า Error Code 002&lt;br&gt;การกำหนดสิทธิ์ผู้ใช้งานไม่ถูกต้อง" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="1980" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-338" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uw76GlWxeY3Yvk_Hq2aO-336" target="Uw76GlWxeY3Yvk_Hq2aO-335">
@@ -601,7 +601,7 @@
         <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-339" value="บันทึกข้อมูลการใช้งานลงใน ActivityLog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1465" y="1481" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-342" value="ส่งค่า Error Code xxx &lt;br&gt;การกำหนดสิทธิ์ผู้ใช้งานไม่ถูกต้อง" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-342" value="ส่งค่า Error Code 002&lt;br&gt;การกำหนดสิทธิ์ผู้ใช้งานไม่ถูกต้อง" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1460" y="1600" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Uw76GlWxeY3Yvk_Hq2aO-347" target="Uw76GlWxeY3Yvk_Hq2aO-349">
@@ -647,7 +647,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-352" value="ส่งค่า Error Code xxx &lt;br&gt;มีบัญชีผู้ใช้งานนี้อยู่ในระบบเเล้ว" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-352" value="ส่งค่า Error Code 006&lt;br&gt;มีบัญชีผู้ใช้งานนี้อยู่ในระบบเเล้ว" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="1980" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Uw76GlWxeY3Yvk_Hq2aO-362" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uw76GlWxeY3Yvk_Hq2aO-358" target="Uw76GlWxeY3Yvk_Hq2aO-359">
