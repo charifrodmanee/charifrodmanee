@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T08:21:06.618Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="B5CtoktslY2CnHQ7X64F" version="21.3.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-05T08:55:39.192Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="QFd6L0MnU_Oqd2KPZ9R4" version="21.3.7" type="github" pages="4">
   <diagram name="หน้า-1" id="pvndjQtGDV9gksF-zCKb">
     <mxGraphModel dx="2127" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -163,7 +163,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3hkkwYxO9QXH3jE4lZqy" name="หน้า-2">
-    <mxGraphModel dx="1531" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1531" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -369,7 +369,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uye1eQ3-C8N0neEr3bpU" name="หน้า-3">
-    <mxGraphModel dx="1823" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -651,11 +651,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zCEMVVLhFSZG2-I51Na0-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zCEMVVLhFSZG2-I51Na0-49" target="zCEMVVLhFSZG2-I51Na0-78">
+        <mxCell id="zCEMVVLhFSZG2-I51Na0-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zCEMVVLhFSZG2-I51Na0-49" target="5pkMI6ZyWJyw5AprAHN3-2">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="810" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="695" y="860" />
-              <mxPoint x="695" y="741" />
+              <mxPoint x="680" y="741" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -737,32 +737,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="950" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="760" y="1100" />
-              <mxPoint x="384" y="1100" />
+              <mxPoint x="760" y="1150" />
+              <mxPoint x="384" y="1150" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zCEMVVLhFSZG2-I51Na0-77" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="715" y="720" width="96.25" height="177.5" as="geometry" />
-        </mxCell>
-        <mxCell id="zCEMVVLhFSZG2-I51Na0-78" value="สร้างข้อมูลตำแหน่ง&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="zCEMVVLhFSZG2-I51Na0-77">
-          <mxGeometry width="96.25" height="42.5" as="geometry" />
-        </mxCell>
-        <mxCell id="zCEMVVLhFSZG2-I51Na0-79" value="สร้างข้อมูล ActivityLog&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="zCEMVVLhFSZG2-I51Na0-77">
-          <mxGeometry x="6.25" y="67.5" width="77.5" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zCEMVVLhFSZG2-I51Na0-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.543;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="zCEMVVLhFSZG2-I51Na0-77" source="zCEMVVLhFSZG2-I51Na0-78" target="zCEMVVLhFSZG2-I51Na0-79">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zCEMVVLhFSZG2-I51Na0-81" value="บันทึกข้อมูล&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="zCEMVVLhFSZG2-I51Na0-77">
-          <mxGeometry x="6.25" y="137.5" width="77.5" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zCEMVVLhFSZG2-I51Na0-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zCEMVVLhFSZG2-I51Na0-77" source="zCEMVVLhFSZG2-I51Na0-79" target="zCEMVVLhFSZG2-I51Na0-81">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zCEMVVLhFSZG2-I51Na0-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="zCEMVVLhFSZG2-I51Na0-78" source="EjHG9Dcu0GjLnQgO5zlT-4">
+        <mxCell id="zCEMVVLhFSZG2-I51Na0-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.488;entryY=-0.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5pkMI6ZyWJyw5AprAHN3-2" source="EjHG9Dcu0GjLnQgO5zlT-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="960" y="741" as="sourcePoint" />
+            <mxPoint x="770" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zCEMVVLhFSZG2-I51Na0-84" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zCEMVVLhFSZG2-I51Na0-83">
@@ -770,11 +753,76 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zCEMVVLhFSZG2-I51Na0-78" value="สร้างข้อมูลตำแหน่ง&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="731" y="980" width="96.25" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zCEMVVLhFSZG2-I51Na0-79" value="สร้างข้อมูล ActivityLog&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="737.25" y="1050" width="77.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zCEMVVLhFSZG2-I51Na0-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.543;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zCEMVVLhFSZG2-I51Na0-78" target="zCEMVVLhFSZG2-I51Na0-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCEMVVLhFSZG2-I51Na0-81" value="บันทึกข้อมูล&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="737.25" y="1120" width="77.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zCEMVVLhFSZG2-I51Na0-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zCEMVVLhFSZG2-I51Na0-79" target="zCEMVVLhFSZG2-I51Na0-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5pkMI6ZyWJyw5AprAHN3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.511;entryY=-0.051;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5pkMI6ZyWJyw5AprAHN3-2" target="5pkMI6ZyWJyw5AprAHN3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5pkMI6ZyWJyw5AprAHN3-18" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5pkMI6ZyWJyw5AprAHN3-14">
+          <mxGeometry x="-0.6602" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5pkMI6ZyWJyw5AprAHN3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5pkMI6ZyWJyw5AprAHN3-2" target="zCEMVVLhFSZG2-I51Na0-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="740" />
+              <mxPoint x="780" y="875" />
+              <mxPoint x="779" y="875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5pkMI6ZyWJyw5AprAHN3-2" value="Company &lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="710" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5pkMI6ZyWJyw5AprAHN3-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="690" y="810" width="78.11999999999989" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5pkMI6ZyWJyw5AprAHN3-5" value="สร้างข้อมูล ActivityLog&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5pkMI6ZyWJyw5AprAHN3-4">
+          <mxGeometry width="77.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5pkMI6ZyWJyw5AprAHN3-6" value="บันทึกข้อมูล&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5pkMI6ZyWJyw5AprAHN3-4">
+          <mxGeometry x="0.6199999999998909" y="60" width="77.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5pkMI6ZyWJyw5AprAHN3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5pkMI6ZyWJyw5AprAHN3-4" source="5pkMI6ZyWJyw5AprAHN3-5" target="5pkMI6ZyWJyw5AprAHN3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5pkMI6ZyWJyw5AprAHN3-8" value="rerturn Error Code 007&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5pkMI6ZyWJyw5AprAHN3-4">
+          <mxGeometry y="120" width="77.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5pkMI6ZyWJyw5AprAHN3-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5pkMI6ZyWJyw5AprAHN3-4" source="5pkMI6ZyWJyw5AprAHN3-6" target="5pkMI6ZyWJyw5AprAHN3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5pkMI6ZyWJyw5AprAHN3-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="398" y="1060" as="sourcePoint" />
+            <mxPoint x="688" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="398" y="1090" />
+              <mxPoint x="398" y="1110" />
+              <mxPoint x="670" y="1110" />
+              <mxPoint x="670" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="rtC6u9QGfsvhOfXoJKU_" name="หน้า-4">
-    <mxGraphModel dx="1276" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1276" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
