@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T07:59:06.324Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="FmqwjVoZhADTRyCEKy5T" version="21.3.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-05T08:01:29.513Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ygpY-7xoOgiy3cSkD-0k" version="21.3.7" type="github" pages="4">
   <diagram name="หน้า-1" id="pvndjQtGDV9gksF-zCKb">
     <mxGraphModel dx="2127" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -774,7 +774,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rtC6u9QGfsvhOfXoJKU_" name="หน้า-4">
-    <mxGraphModel dx="1196" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1276" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1143,13 +1143,14 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="740" y="960" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="770" y="1110" />
+              <mxPoint x="690" y="888" />
+              <mxPoint x="690" y="1110" />
               <mxPoint x="394" y="1110" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="h6VPQunG_JcqAhJNMBfT-189" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="710" y="730" width="96.25" height="177.5" as="geometry" />
+          <mxGeometry x="708.75" y="730" width="96.25" height="177.5" as="geometry" />
         </mxCell>
         <mxCell id="h6VPQunG_JcqAhJNMBfT-190" value="สร้างข้อมูลตำแหน่ง&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="h6VPQunG_JcqAhJNMBfT-189">
           <mxGeometry width="96.25" height="42.5" as="geometry" />
@@ -1196,17 +1197,45 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h6VPQunG_JcqAhJNMBfT-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h6VPQunG_JcqAhJNMBfT-204">
+        <mxCell id="h6VPQunG_JcqAhJNMBfT-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h6VPQunG_JcqAhJNMBfT-204" target="h6VPQunG_JcqAhJNMBfT-209">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="770" y="1110" as="targetPoint" />
             <Array as="points">
               <mxPoint x="810" y="530" />
-              <mxPoint x="810" y="1110" />
+              <mxPoint x="810" y="970" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6VPQunG_JcqAhJNMBfT-214" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h6VPQunG_JcqAhJNMBfT-213">
+          <mxGeometry x="-0.9307" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h6VPQunG_JcqAhJNMBfT-204" value="ใช่?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="708.75" y="500" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h6VPQunG_JcqAhJNMBfT-216" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h6VPQunG_JcqAhJNMBfT-209" target="h6VPQunG_JcqAhJNMBfT-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h6VPQunG_JcqAhJNMBfT-209" value="สร้างข้อมูล ActivityLog&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="950" width="77.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h6VPQunG_JcqAhJNMBfT-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h6VPQunG_JcqAhJNMBfT-210" target="h6VPQunG_JcqAhJNMBfT-211">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h6VPQunG_JcqAhJNMBfT-210" value="บันทึกข้อมูล&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1010" width="77.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h6VPQunG_JcqAhJNMBfT-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.822;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h6VPQunG_JcqAhJNMBfT-211" target="h6VPQunG_JcqAhJNMBfT-116">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="764" y="1140" />
+              <mxPoint x="366" y="1140" />
+              <mxPoint x="366" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6VPQunG_JcqAhJNMBfT-211" value="rerturn Error Code&amp;nbsp;019&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1070" width="77.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
