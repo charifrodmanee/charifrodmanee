@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T09:22:58.501Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Ke5r7_oHzenNWI0EYwQY" version="21.3.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-05T09:25:53.552Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="r3yLg22KjOEHz4wuviX0" version="21.3.7" type="github" pages="4">
   <diagram name="หน้า-1" id="HK3qTd81JspzCiA33x33">
     <mxGraphModel dx="1235" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -369,7 +369,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JT1T0hcpaenlfGCemnwU" name="หน้า-3">
-    <mxGraphModel dx="1196" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="736" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -570,12 +570,12 @@
         <mxCell id="AwtZo1Z6e3G5_2WAkFgO-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AwtZo1Z6e3G5_2WAkFgO-139" target="AwtZo1Z6e3G5_2WAkFgO-140">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AwtZo1Z6e3G5_2WAkFgO-142" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AwtZo1Z6e3G5_2WAkFgO-141">
+        <mxCell id="AwtZo1Z6e3G5_2WAkFgO-142" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AwtZo1Z6e3G5_2WAkFgO-141">
           <mxGeometry x="-0.1637" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AwtZo1Z6e3G5_2WAkFgO-143" value="ตรวจสอบว่า newsTypeCode&lt;br&gt;มีในฐานข้อมูลไหม" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AwtZo1Z6e3G5_2WAkFgO-143" value="ตรวจสอบว่า newsTypeCode&lt;br&gt;มีซ้ำในฐานข้อมูลไหม" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="468.0999999999999" y="607" width="123.65" height="62" as="geometry" />
         </mxCell>
         <mxCell id="AwtZo1Z6e3G5_2WAkFgO-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AwtZo1Z6e3G5_2WAkFgO-113" target="AwtZo1Z6e3G5_2WAkFgO-143">
@@ -607,7 +607,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AwtZo1Z6e3G5_2WAkFgO-150" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AwtZo1Z6e3G5_2WAkFgO-149">
+        <mxCell id="AwtZo1Z6e3G5_2WAkFgO-150" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AwtZo1Z6e3G5_2WAkFgO-149">
           <mxGeometry x="-0.3183" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -731,7 +731,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zP1Lw1p5o0oy7rrap-MF" name="หน้า-4">
-    <mxGraphModel dx="832" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="766" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -929,7 +929,7 @@
         <mxCell id="XhSw0fk96ECK6k71a28s-50" value="มี ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XhSw0fk96ECK6k71a28s-1">
           <mxGeometry x="530" y="545" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XhSw0fk96ECK6k71a28s-51" value="rerturn Error Code 30&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XhSw0fk96ECK6k71a28s-1">
+        <mxCell id="XhSw0fk96ECK6k71a28s-51" value="rerturn Error Code 37&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XhSw0fk96ECK6k71a28s-1">
           <mxGeometry x="400" y="590" width="77.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XhSw0fk96ECK6k71a28s-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XhSw0fk96ECK6k71a28s-1" source="XhSw0fk96ECK6k71a28s-50" target="XhSw0fk96ECK6k71a28s-51">
